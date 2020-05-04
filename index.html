@@ -8,14 +8,32 @@
                 <p id="description">Fill out this form to be a part of the 1st Annual Farmer's Market in Alaska</p>
                 </header>
                 <form id="survey-form">
+                    <div class="form-group">
                     <label id="name-label" for="name">Name</label>
                     <input type="text" id="name" placeholder="Enter your name" required></input>
+                    </div>
 
+                    <div class="form-group">
                     <label id="email-label" for="email">Email</label>
                     <input type="text" id="email" placeholder="Enter your email" required></input>
+                    </div>
 
+                    <div class="form-group">
                     <label id="number-label" for="number">Number of Tables</label>
                     <input type="number" id="number" placeholder="How many tables will you need?" min="1" max="99"></input>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dropdown">What time-slot would you like to select</label>
+                        <select id="dropdown"> 
+                            <option value="morning">08:00-11:00</option>
+                            <option value="afternoon">12:00-15:00</option>
+                            <option value="evening">16:00-19:00</option>
+                        </select>
+                    </div>
+
+                    
+
                 </form>
         </div>
     </body>
