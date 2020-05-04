@@ -1,6 +1,17 @@
+.texture{
+  background: url("https://assets.awwwards.com/awards/images/2015/04/pattern.jpg");
+}
+
 .container {
   width: 100%;
   margin: 3.125rem auto 0 auto;
+  font-family: monospace;
+}
+
+form {
+  background: #cad0db;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.6rem;
 }
 
 @media (min-width: 576px) {
@@ -23,4 +34,28 @@
 .little {
   margin-left: 0.25rem;
   font-size: 0.9rem; 
+}
+
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: green;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.textarea{
+  display: block;
+  width: 80%;
+  padding: 0.75rem;
 }

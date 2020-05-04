@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link href="myStyle.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="texture">
         <div class="container">
-            <header>
-                <h1 id="title">Farmer's Market Sign Up Form</h1>
+            <header class="header">
+                <h1 id="title" class="text-center">Farmer's Market Sign Up Form</h1>
 
-                <p id="description">Fill out this form to be a part of the 1st Annual Farmer's Market in Alaska</p>
+                <p id="description"><strong>Fill out this form to be a part of the 1st Annual Farmer's Market in Alaska</strong></p>
                 </header>
                 <form id="survey-form">
                     <div class="form-group">
@@ -35,7 +40,7 @@
 
                     <div class="form-group">
                         <p>What do you sell?</p>
-                        <label><input name="item" type="radio"/>Fruits and/or Vegetables</label>
+                        <label><input name="item" type="radio" />Fruits and/or Vegetables</label>
                         <label><input name="item" type="radio" />Meat/Cheese/Dairy</label>
                         <label><input name="item" type="radio" />Baked Goods</label>
                         <label><input name="item" type="radio" />Merchandise</label>
@@ -52,13 +57,12 @@
 
                     <div class="form-group">
                         <p>Any comments or suggestions?</p>
-                        <textarea id="text-feedback" placeholder="Enter your feedback here"></textarea>
+                        <textarea id="text-feedback" placeholder="Enter your feedback here" class="textarea"></textarea>
                     </div>
 
                     <div class="form-group">
-                        <button type="submit" id="submit">Submit</button>
+                        <button type="submit" id="submit" class="submit-button"><strong>Submit</strong></button>
                     </div>
-
                 </form>
         </div>
     </body>
